@@ -1,1 +1,0 @@
-/home/aplet123/Downloads/cyber-academy-s23/intro/functional/chall.py
