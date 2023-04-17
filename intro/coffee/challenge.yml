@@ -1,0 +1,12 @@
+name: coffee
+author: bliutech
+value: 15
+description: |-
+  def. A good cup of coffee.
+
+  `java Coffee`
+
+flag: "flag{8_n1c3_C7p_0f_J6vA_pLz}"
+
+provide:
+  - ./Coffee.class
