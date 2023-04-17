@@ -1,0 +1,11 @@
+name: internet-cats
+author: Jason
+value: 10
+description: |-
+  Some challenges need you to be able to connect to our server. Install netcat (or ssh to seasnet) then run `nc acmcyber.com 10101` to connect.
+
+flag:
+  file: ./flag.txt
+
+provide:
+  - ./chall.py

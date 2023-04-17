@@ -1,0 +1,10 @@
+name: functional
+author: Jason
+value: 20
+description: |-
+  I heard functional programming is all the rage nowadays so I made a functional flag checker!
+
+flag: "flag{good_ol_xor_has_never_failed_anyone}"
+
+provide:
+  - ./chall.py

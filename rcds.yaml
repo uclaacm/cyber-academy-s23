@@ -1,0 +1,17 @@
+docker:
+  image:
+    prefix: irrelevant
+defaults:
+  containers:
+    resources:
+      limits:
+        cpu: 200m
+        memory: 256Mi
+      requests:
+        cpu: 50m
+        memory: 64Mi
+backends:
+  - resolve: rctf
+    options:
+      url: "https://platform.acmcyber.com"
+      token: "dRcvkhpWdPdahzqUmSYX0ExZa6j0kHrj5+okrrmrelzqPatoKEkXWd9003PGkQUokhAa1cuBP+sEyajxdP3eefPlGjRx+ZZf09L6FYLaRxV2Tou4RGmRo682oCvz"
