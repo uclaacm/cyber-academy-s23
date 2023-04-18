@@ -1,0 +1,11 @@
+name: funny-number
+author: Jason
+value: 25
+description: |-
+  Give me a funny number and if it's funny enough I'll give you a funny flag! Connect to my service at `nc acmcyber.com 10103`.
+
+flag:
+  file: ./flag.txt
+
+provide:
+  - ./chall.py
