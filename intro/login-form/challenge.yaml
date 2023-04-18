@@ -1,0 +1,10 @@
+name: login-form
+author: Jason
+value: 20
+description: |-
+  Log in to my super secure webpage and you'll get a flag!
+
+flag: "flag"
+
+provide:
+  - ./index.html
