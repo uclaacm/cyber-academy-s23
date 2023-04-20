@@ -24,17 +24,7 @@ void defuse() {
     exit(0);
 }
 
-int main(void) {
-    setbuf(stdout, NULL);
-    char buf[256];
-    puts("What's the password?");
-    fgets(buf, 256, stdin);
-    if (strcmp(buf, secret) != 0) {
-        explode();
-    }
-    puts("What's my favorite number?");
-    fgets(buf, 256, stdin);
-    long long n = atoll(buf);
+int magic(long long n) {
     int v = 10;
     switch (n) {
         case 1337133713370LL:
@@ -54,9 +44,23 @@ int main(void) {
             v = 1337;
             break;
         default:
-            explode();
+            v = -1;
     }
-    if (v != 22) {
+    return v;
+}
+
+int main(void) {
+    setbuf(stdout, NULL);
+    char buf[256];
+    puts("What's the password?");
+    fgets(buf, 256, stdin);
+    if (strcmp(buf, secret) != 0) {
+        explode();
+    }
+    puts("What's my favorite number?");
+    fgets(buf, 256, stdin);
+    long long n = atoll(buf);
+    if (magic(n) != 22) {
         explode();
     }
     defuse();
