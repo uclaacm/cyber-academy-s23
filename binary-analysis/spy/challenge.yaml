@@ -1,0 +1,13 @@
+name: spy
+author: Salma
+value: 25
+description: |-
+  You're a secret agent and you've finally found the program with info for your next mission!
+  Problem is, you need to identify yourself at `nc acmcyber.com 10104` and forgot how :(
+  Can you figure out your identification code and get your info back?
+  Feel free to run on SEASnet if you can't run it locally.
+flag:
+  file: ./flag.txt
+
+provide:
+  - ./spy
