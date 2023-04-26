@@ -5,7 +5,7 @@
 int compare(char message[]){
     int secret_message[22] = {68, 111, 117, 98, 108, 101, 79, 104, 83, 101, 118, 101, 110, 82, 101, 112, 111, 114, 116, 105, 110, 103};
     for (int i = 0; i < 22; i++){
-        if((int)message[i] != (secret_message[i] + 3)){ //caesar cipher
+        if((int)message[i] != (secret_message[i] + 3)){ //caesar cipher, Shift DoubleOhSevenReporting right by 3 (get GrxeohRkVhyhqUhsruwlqj) 
             return 0;
         }
     }
