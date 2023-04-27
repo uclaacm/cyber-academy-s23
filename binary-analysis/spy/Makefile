@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Wpedantic -Werror -O0 -fno-inline -fno-pie -std=c99
 
-NAME=minibomb
+NAME=spy
 
 .PHONY: clean run build
 

@@ -1,0 +1,11 @@
+name: offbrand-x86
+author: Jason
+value: 50
+description: |-
+  I made an offbrand version of x86 and wrote a VM to interpret it! I even wrote a program with it that'll give you the flag. Connect to it at `nc acmcyber.com 10105`.
+
+flag:
+  file: ./flag.txt
+
+provide:
+  - ./offbrand-x86

@@ -1,0 +1,11 @@
+name: password-checker
+author: Jason
+value: 20
+description: |-
+  I don't trust the existing password hashing algorithms. Instead, I made my own password checking system with state of the art encryption! You'll never steal the flag from my vault. Connect to it at `nc acmcyber.com 10106`.
+
+flag:
+  file: ./flag.txt
+
+provide:
+  - ./password-checker

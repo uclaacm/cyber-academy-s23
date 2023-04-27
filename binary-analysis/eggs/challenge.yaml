@@ -1,0 +1,11 @@
+name: eggs
+author: Salma
+value: 20
+description: |-
+  My good old uncle massoud is always hungry! Usually he's a fan of eggs but recently he's gained a taste for very specific flags.
+  Can you figure out what flag will finally satiate his neverending hunger?
+
+flag: "flag{hello_my_name_is_sam_and_i_like_some_ham}"
+
+provide:
+  - ./eggs
