@@ -31,19 +31,17 @@ int main(void){
         }
         else {
            if (func2((int)buf[i])){ //if even.
-                buf[i] = buf[i]+7;
+                buf[i] = buf[i]+8;
            }
            else {
                 buf[i] = buf[i]-4;
            }
         }
     }
-    printf("%s\n", buf);
-    if(strcmp(buf, "}mah_emos_ekil_i_dna_mao[oe[ai]u[ui[kssaowc]sm") == 0){
+    if(strcmp(buf, "}mah_emos_ekil_i_dna_mao[oe[ai]v[ui[kttapwc]tn") == 0){
         printf("wow... that was so tasty... looks like you just gave me the perfect flag!\n");
         return 0;
     }
     printf("everybody's so creative! hard pass from me man, cook me up another flag next time.\n");
-    printf("%s\n", buf);
     return 0;
 }
