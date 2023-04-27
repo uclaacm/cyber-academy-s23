@@ -7,6 +7,7 @@ unsigned char bytecode[] = {'m', 2, 1, 's', 2, 0, 'M', 3, 7, 'c', 2, 3, 'j', 'n'
 
 int main(void) {
     puts("Please input 2 numbers:");
+    fflush(stdout);
     if (scanf("%d %d", &regs[0], &regs[1]) != 2) {
         puts("Invalid numbers.");
         return 1;
