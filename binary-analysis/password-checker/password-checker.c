@@ -5,6 +5,7 @@
 
 int main(void) {
     puts("What's the password?");
+    fflush(stdout);
     char inp[64];
     fgets(inp, 64, stdin);
     inp[strcspn(inp, "\n")] = '\0';
