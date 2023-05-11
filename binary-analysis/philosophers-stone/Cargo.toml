@@ -1,0 +1,17 @@
+[package]
+name = "philosophers-stone"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "philosophers-stone"
+path = "main.rs"
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+panic = "abort"
+overflow-checks = false
+lto = true
+strip = "debuginfo"
+
