@@ -1,5 +1,6 @@
 name: universal
 author: aplet123
+value: 20
 description: |-
   3 billion devices run Java...so I guess 3 billion devices can get the flag.
 
