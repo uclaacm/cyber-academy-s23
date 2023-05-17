@@ -1,0 +1,10 @@
+name: hemmingsnet
+author: bliutech
+value: 20
+description: |-
+  The infamous hacker, roryxballer, has released the most dangerous ransomware yet, HEMMINGSNET!!! Unfortunately, my flag was encrypted by a rootkit that executed this malware. Reverse engineers were able to recover the source code for hemmingsnet. Can you help me recover my flag?
+
+flag: "flag{r0r7_d6_h3x8r_j01m_m37w4r3_l4b}"
+
+provide:
+  - ./hemmingsnet.js
